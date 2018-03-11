@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 //Cada vez que se ahce clic el contador suma 1.
                 cont++;
-                //cuando el contador es 3 se reinicia sacando el modulo de este.
+                //Modulo del contador.
                 cont = cont % imagenes.length;
                 //ponemos en el image view la imagen con su contador para que vaya cambiando.
                 imageView.setImageResource(imagenes[cont]);
