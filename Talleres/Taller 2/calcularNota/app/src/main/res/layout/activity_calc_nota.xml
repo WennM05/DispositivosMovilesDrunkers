@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pene.calcularnota.CalcNota">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="170dp"
+        tools:ignore="MissingConstraints">
+
+        <EditText
+            android:id="@+id/etNota"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Introuce la nota corte 1"
+            android:digits="0123456789."
+            android:inputType="numberDecimal"
+
+            android:ems="10"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="61dp" />
+
+        <EditText
+            android:id="@+id/etNota2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:digits="0123456789."
+            android:inputType="numberDecimal"
+
+            android:hint="Introuce la nota corte 2"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="117dp" />
+
+        <EditText
+            android:id="@+id/etNota3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:digits="0123456789."
+            android:inputType="numberDecimal"
+
+            android:hint="Introduce la nota corte 3"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="171dp" />
+
+        <Button
+            android:id="@+id/btnNota"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="¡Calcular nota!"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="253dp" />
+
+        <TextView
+            android:id="@+id/tvNota"
+            android:layout_width="match_parent"
+            android:layout_height="94dp"
+            tools:autoSizeMaxTextSize="100dp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="268dp" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
