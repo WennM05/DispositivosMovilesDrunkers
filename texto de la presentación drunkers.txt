@@ -1,0 +1,27 @@
+lo primero es crear una interfaz de tipo maps
+igualmente para poder hacer uso de el api de Maps de Google es necesario tener una clave, que ellos mismos otorgan
+una vez obtenida la clave se hace un cambio en values->google_maps_api.xml donde colocaremos la clave otorgada
+cuando la creamos el activity predeterminadamente, al correr la app nos va a mostrar un mapa de Sydney, Australia
+entonces lo que debemos hacer es configurar el GPS para poder mostrar nuestra ubicación
+
+así que creamos una clase donde vamos a validar los permisos de localización ya sea por GPS o por Network
+
+GPS es una herramienta sumamente utilizada cuando hablamos de dispositivos móviles, su portabilidad, precisión y 
+oportunismo, permiten a los usuarios transmitir y recibir información de todo tipo relacionada con geolocalización, 
+tenemos asi:
+
+Mapas de Navegación.
+Rastreadores de posición
+Levantamiento de información.
+Etc.
+
+
+Network
+
+Es una herramienta que nos permite obtener nuestra ubicación mediante nuestras redes telefónicas.
+
+esto para que en caso de falla del gps podamos ubicar por medio de las redes telefonicas o Network
+
+luego hacemos los cambios respectivos de longitud y latitud de acuerdo a lo que recibimos, si nuestros permisos estan 
+hábilitados, ya que de no habilitarlos, no podremos hacer uso de la app
+
