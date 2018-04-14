@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.general.listalicor.CatalogoLicor">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="214dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/Licor1"
+                    android:layout_width="match_parent"
+                    android:layout_height="99dp"
+                    android:src="@drawable/pag1" />
+
+                <ImageView
+                    android:id="@+id/licor2"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:src="@drawable/pag2" />
+
+                <ImageView
+                    android:id="@+id/licor3"
+                    android:layout_width="match_parent"
+                    android:layout_height="108dp"
+                    android:src="@drawable/pag3" />
+
+                <ImageView
+                    android:id="@+id/licor4"
+                    android:layout_width="match_parent"
+                    android:layout_height="107dp"
+                    android:src="@drawable/pag4" />
+
+                <ImageView
+                    android:id="@+id/licor5"
+                    android:layout_width="match_parent"
+                    android:layout_height="98dp"
+                    android:src="@drawable/pag5" />
+            </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="214dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/catalogoIdtxt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="ID: 0" />
+
+                    <TextView
+                        android:id="@+id/titulotxt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Don Melchor" />
+
+                    <TextView
+                    android:id="@+id/descripciontxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="No. 9 DEL MUNDO." />
+
+                    <TextView
+                        android:id="@+id/preciotxt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="100000" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
